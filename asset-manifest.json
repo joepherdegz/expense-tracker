@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.31d6cfe0.js",
-    "index.html": "/goit-react-hw-08-phonebook/index.html"
+    "main.js": "/expense-tracker/static/js/main.31d6cfe0.js",
+    "index.html": "/expense-tracker/index.html"
   },
   "entrypoints": [
     "static/js/main.31d6cfe0.js"
