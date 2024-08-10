@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.273d91fb.css","mappings":"AAAA,kBAEQ,WAAY,CADhB,UAGJ,CAEA,sBACK,aAAc,CACf,YAEJ","sources":["components/Logo/Logo.module.css"],"sourcesContent":[".logo {\n    width: 27px;\n        height: 16px;\n     \n}\n\n.mainlogo {\n     color: #FAFAFA;\n    display: flex;\n    \n}"],"names":[],"sourceRoot":""}
