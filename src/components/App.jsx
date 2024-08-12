@@ -6,6 +6,7 @@ import { Homepage } from "pages/HomePage";
 export const App = () => {
     return (
         <>
+            
             <Homepage />
             {/* <Routes>
                 <Route path="/" element={<SharedLayout />}>

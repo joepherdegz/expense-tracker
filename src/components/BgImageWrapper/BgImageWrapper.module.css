@@ -1,0 +1,7 @@
+.bigImgWrapper {
+    margin: 132px 729px 100px 100px;
+    width: 611px;
+    height: 568px;
+    flex-shrink: 0;
+    border-radius: 20px;
+}
