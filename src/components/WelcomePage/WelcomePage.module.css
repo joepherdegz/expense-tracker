@@ -1,0 +1,24 @@
+.mainContainer {
+    display: inline-flex;
+    /* width: 600px; */
+    height: auto;
+    gap: 100px;
+    font-weight: bold;
+}
+
+.pageContainer {
+    display: inline-flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    /* flex-direction: column; */
+    width: 575px;
+    margin-top: 158px;
+    gap: 100px;
+}
+h1 {
+    color: #FAFAFA;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: normal;
+        letter-spacing: -1.12px;
+}
