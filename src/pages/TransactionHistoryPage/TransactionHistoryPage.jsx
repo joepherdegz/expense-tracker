@@ -4,14 +4,14 @@ import { useDispatch, useSelector } from 'react-redux';
 import { toast } from 'react-toastify';
 import { TransactionsList } from '../../components/TransactionList/TransactionList';
 import { TransactionsSearchTools } from '../../components/TransactionSearchTool/TransactionSearchTool';
-import { Modal } from '../components/Modal/Modal';
-import { TransactionForm } from '../components/TransactionForm/TransactionForm';
-import { TransactionsTotal } from '../components/TransactionsTotal/TransactionsTotal';
-import { selectTotalTransExpenses, selectTotalTransIncomes} from '../redux/Transaction/TransactionSlice';
-import { addTransaction, getTransactions } from '../redux/Transaction/operations';
-import { resetFilter, selectDate } from '../redux/Filter/FilterSlice';
-import { useModal } from '../hooks';
-import { fetchCurrentUser } from '../redux/User/operations';
+import { Modal } from '../../components/Modal/Modal';
+import { TransactionForm } from '../../components/TransactionForm/TransactionForm';
+import { TransactionsTotal } from '../../components/TransactionTotal/TransactionTotal';
+import { selectTotalTransExpenses, selectTotalTransIncomes} from '../../redux/Transaction/transactionSlice';
+import { addTransaction, getTransactions } from '../../redux/Transaction/operations';
+import { resetFilter, selectDate } from '../../redux/Filter/filterSlice';
+import { useModal } from '../../hooks/useModal';
+import { fetchCurrentUser } from '../../redux/User/operations';
 import s from './TransactionHistoryPage.module.css';
 
 const TransactionsHistory = () => {

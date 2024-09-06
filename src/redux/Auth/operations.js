@@ -1,5 +1,5 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import { api, setAuthHeader, clearAuthHeader } from '../utils/api';
+import { api, setAuthHeader, clearAuthHeader } from '../../utils/api';
 import { fetchCurrentUser } from '../User/operations';
 
 export const registerUser = createAsyncThunk(
