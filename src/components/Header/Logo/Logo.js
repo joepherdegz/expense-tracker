@@ -1,18 +1,18 @@
 import { NavLink } from 'react-router-dom';
-import css from './Logo.module.css';
 import { Icon } from '../../Icon/Icon';
+import style from './Logo.module.css';
 
-
-const Logo = (resetStateActiveButton) => {
-   <NavLink
+const Logo = ({ resetStateActiveButton }) => (
+  <NavLink
     onClick={resetStateActiveButton}
     to={'/'}
-    className={css.logoWrapper}
+    className={style.logoWrapper}
   >
-    <div className={css.logoIconWrapper}>
-      <Icon className={css.logo} />
+    <div className={style.logoIconWrapper}>
+      <Icon className={style.logo} />
     </div>
-    <p className={css.logoText}>ExpenseTracker</p>
+    <p className={style.logoText}>ExpenseTracker</p>
   </NavLink>
-}
+);
+
 export default Logo;
