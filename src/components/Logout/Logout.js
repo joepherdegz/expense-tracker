@@ -12,9 +12,11 @@ export const LogOut = ({ toggleLogOutModal }) => {
 
   const handleLogout = () => {
     setIsLoading(true);
+    console.log("Attempting to log out...");
     dispatch(logOut())
       .unwrap()
       .then(() => {
+        console.log("Logged out, navigating to /");
         navigate('/');
         toggleLogOutModal();
         toast.warning('In order to use the application you must log in');
@@ -24,6 +26,7 @@ export const LogOut = ({ toggleLogOutModal }) => {
       })
       .finally(() => {
         setIsLoading(false);
+        console.log("Loading state reset");
       });
   };
 

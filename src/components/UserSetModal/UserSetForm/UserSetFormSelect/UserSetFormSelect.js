@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import  UserSetsFormList  from './UserSetFormList';
+import { UserSetsFormList } from './UserSetFormList';
 import { Icon } from '../../../Icon/Icon';
 import { choseLabel, options } from '../../../../utils/chooseLabel';
 import s from './UserSetFormSelect.module.css';

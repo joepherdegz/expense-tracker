@@ -33,7 +33,7 @@ export const TransactionsTotal = ({
             </div>
           </Link>
           <div>
-            <h3 className={s.amountTitle}>Total Income</h3>
+            <h3 className={s.amountTitle}>Total Expense</h3>
             <p className={s.amountDescr}>
               {currencyChar}
               {totalAllIncomes || totalIncomes}
@@ -47,7 +47,7 @@ export const TransactionsTotal = ({
             </div>
           </Link>
           <div>
-            <h3 className={s.amountTitle}>Total Expense</h3>
+            <h3 className={s.amountTitle}>Total Income</h3>
             <p className={s.amountDescr}>
               {currencyChar}
               {totalAllExpenses || totalExpenses}
